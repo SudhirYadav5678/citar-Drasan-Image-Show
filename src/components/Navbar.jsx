@@ -1,4 +1,5 @@
 import React from 'react'
+import Signup from "./Signup.jsx"
 
 function Navbar() {
     return (
@@ -36,7 +37,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">SignUp</a>
+                    <Signup />
                 </div>
             </div>
         </>

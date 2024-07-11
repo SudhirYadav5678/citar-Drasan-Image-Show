@@ -20,7 +20,7 @@ function Card() {
                                 <h2 className="card-title">{card.name}</h2>
                                 <p>{card.descripation}</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary"><ShowMe /></button>
+                                    {/* <ShowMe /> */}
                                 </div>
                             </div>
                         </div>

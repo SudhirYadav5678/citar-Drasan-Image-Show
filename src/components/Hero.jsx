@@ -1,4 +1,5 @@
 import React from 'react'
+import Login from './Login'
 
 function Hero() {
     return (
@@ -13,7 +14,7 @@ function Hero() {
                         <p className="py-6">
                             Images are beauty of moments which are special for every one.
                         </p>
-                        <button className="btn btn-primary">Login Now</button>
+                        <Login />
                     </div>
                 </div>
             </div>
